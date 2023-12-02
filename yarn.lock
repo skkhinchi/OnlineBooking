@@ -2098,10 +2098,17 @@
   dependencies:
     "@types/node" "*"
 
-"@types/node@*", "@types/node@^20.9.5":
+"@types/node@*":
   version "20.9.5"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-20.9.5.tgz#bb441014bcb91c63742b0e1fe25b902f5d581faa"
   integrity sha512-Uq2xbNq0chGg+/WQEU0LJTSs/1nKxz6u1iemLcGomkSnKokbW1fbLqc3HOqCf2JP7KjlL4QkS7oZZTrOQHQYgQ==
+  dependencies:
+    undici-types "~5.26.4"
+
+"@types/node@^20.10.2":
+  version "20.10.2"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-20.10.2.tgz#32a5e8228357f57714ad28d52229ab04880c2814"
+  integrity sha512-37MXfxkb0vuIlRKHNxwCkb60PNBpR94u4efQuN4JgIAm66zfCDXGSAFCef9XUWFovX2R1ok6Z7MHhtdVXXkkIw==
   dependencies:
     undici-types "~5.26.4"
 
@@ -2142,10 +2149,19 @@
   dependencies:
     "@types/react" "*"
 
-"@types/react@*", "@types/react@^18.2.38":
+"@types/react@*":
   version "18.2.38"
   resolved "https://registry.yarnpkg.com/@types/react/-/react-18.2.38.tgz#3605ca41d3daff2c434e0b98d79a2469d4c2dd52"
   integrity sha512-cBBXHzuPtQK6wNthuVMV6IjHAFkdl/FOPFIlkd81/Cd1+IqkHu/A+w4g43kaQQoYHik/ruaQBDL72HyCy1vuMw==
+  dependencies:
+    "@types/prop-types" "*"
+    "@types/scheduler" "*"
+    csstype "^3.0.2"
+
+"@types/react@^18.2.40":
+  version "18.2.40"
+  resolved "https://registry.yarnpkg.com/@types/react/-/react-18.2.40.tgz#b1cc2bafdc81da3c9bb105cfe8b91211bbce2e0d"
+  integrity sha512-H+BUhb9C1zBtogDLAk+KCNRKiHDrqSwQT/0z0PVTwMFBxqg3011ByLomADtgkgMkfwj4AMOiXBReyLTUBg681g==
   dependencies:
     "@types/prop-types" "*"
     "@types/scheduler" "*"
