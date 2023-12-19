@@ -1,6 +1,15 @@
 .App {
   text-align: center;
 }
+.todo-item {
+  display: flex;
+  flex-direction: left;
+  justify-content: center;
+  margin-bottom: 8px;
+ }
+ .todo-item p {
+  color: #10731c;
+ }
 
 .App-logo {
   height: 40vmin;
